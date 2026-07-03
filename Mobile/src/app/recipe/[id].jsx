@@ -49,6 +49,7 @@ const RecipeDetailScreen = () => {
             ...transformedRecipe,
             youtubeUrl: mealData.strYoutube || null,
           };
+          
 
           setRecipe(recipeWithVideo);
         }

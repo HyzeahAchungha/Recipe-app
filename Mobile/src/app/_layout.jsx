@@ -7,7 +7,8 @@ import SafeScreen from "../../components/SafeScreen"
 export default function RootLayout() {
   return (
     <ClerkProvider 
-      publishableKey={process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY}
+  publishableKey={process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY}
+
       tokenCache={tokenCache}
     >
       <SafeScreen style={{flex:1, backgroundColor: COLORS.background }}>
